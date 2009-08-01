@@ -52,7 +52,7 @@ let mapleader=","
 set grepprg=ack
 set grepformat=%f:%l:%m
 
-
+map <leader>l :TlistToggle<CR>
 map <leader>t :FuzzyFinderTextMate<CR>
 map <leader>b :FuzzyFinderBuffer<CR>
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
