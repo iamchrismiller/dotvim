@@ -38,9 +38,10 @@ FuzzyFinder(Textmate) provides:
 [:GitVimDiffMergeDone] Call this command after merging.
 
 == Keymaps
-[,d] = Toggle NERDtree
-[,t] = FuzzyFinderTextmate
-[,b] = FuzzyBufferFinder
+[,l] Toggle Taglist
+[,d] Toggle NERDtree
+[,t] :FuzzyFinderTextmate
+[,b] :FuzzyBufferFinder
 [, gd] :GitDiff
 [,gD] :GitDiff --cached
 [,gs] :GitStatus
