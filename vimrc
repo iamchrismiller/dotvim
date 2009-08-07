@@ -1,12 +1,7 @@
+" Sander van Zoest's .vimrc
+" Email: sander@vanzoest.com
+" Last change: August 7th, 2009
 "
-" AJ Christensen's .vimrc
-" Email: aj@opscode.com
-" Last change: 2009 April 22
-"
-" Original:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2002 Sep 19
-"
-
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
@@ -23,7 +18,7 @@ set tabstop=2
 set autoindent
 " Use spaces instead of tabs
 set expandtab
-colorscheme manxome 
+colorscheme autumn2 
 set guifont=Inconsolata:h12
 set ignorecase
 set vb " turns off visual bell
